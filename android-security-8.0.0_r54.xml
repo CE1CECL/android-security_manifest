@@ -70,7 +70,7 @@
 <project path="external/aac" name="platform/external/aac" groups="pdk"/>
 <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk"/>
 <project path="external/abi-dumper" name="platform/external/abi-dumper" groups="pdk"/>
-<project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs"/>
+<project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,pdk-fs"/>
 <project path="external/android-clat" name="platform/external/android-clat" groups="pdk"/>
 <project path="external/androidplot" name="platform/external/androidplot" groups="pdk"/>
 <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk"/>
@@ -507,7 +507,7 @@
 <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1"/>
 <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs"/>
 <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" clone-depth="1"/>
-<project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" clone-depth="1"/>
+<project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="eclipse" clone-depth="1"/>
 <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1"/>
 <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" clone-depth="1"/>
 <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1"/>
@@ -574,18 +574,18 @@
 <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" groups="vts"/>
 <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk"/>
 <project path="toolchain/binutils" name="toolchain/binutils" groups="pdk"/>
-<project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools"/>
+<project path="tools/adt/idea" name="platform/tools/adt/idea" groups="tools"/>
 <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed"/>
-<project path="tools/base" name="platform/tools/base" groups="notdefault,tools"/>
-<project path="tools/build" name="platform/tools/build" groups="notdefault,tools"/>
+<project path="tools/base" name="platform/tools/base" groups="tools"/>
+<project path="tools/build" name="platform/tools/build" groups="tools"/>
 <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools"/>
 <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" clone-depth="1"/>
-<project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools"/>
+<project path="tools/idea" name="platform/tools/idea" groups="tools"/>
 <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed"/>
-<project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev"/>
+<project path="tools/motodev" name="platform/tools/motodev" groups="motodev"/>
 <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed"/>
-<project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools"/>
-<project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools"/>
+<project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="tools"/>
+<project path="tools/swt" name="platform/tools/swt" groups="tools"/>
 <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk"/>
 <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed"/>
 <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed"/>
