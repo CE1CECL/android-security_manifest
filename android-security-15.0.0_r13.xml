@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="aosp" fetch="http://android.googlesource.com/a"/>
+<remote name="aosp" fetch="http://android.googlesource.com"/>
 <default revision="refs/tags/android-security-15.0.0_r13" remote="aosp"/>
 <superproject name="platform/superproject" remote="aosp"/>
 <contactinfo bugurl="go/repo-bug"/>
